@@ -18,10 +18,7 @@
 	<!-- common -->
 	<jsp:include page="/WEB-INF/jsp/ubiplus/common/weblockComm.jsp"></jsp:include>
 	<!-- // common -->
-
-
-
-
+	 
     <!-- Container -->
     <div id="container">
         <!-- Content -->
