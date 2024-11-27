@@ -19,6 +19,9 @@
 	<jsp:include page="/WEB-INF/jsp/ubiplus/common/weblockComm.jsp"></jsp:include>
 	<!-- // common -->
 
+
+
+
     <!-- Container -->
     <div id="container">
         <!-- Content -->
@@ -78,15 +81,15 @@
 					</div>
 	            </div>
 	            
-	            <input type="hidden" name="SUN"> <!-- 일요일 -->	
-				<input type="hidden" name="MON"> <!-- 월요일 -->	
-				<input type="hidden" name="TUE"> <!-- 화요일 -->	
-				<input type="hidden" name="WED"> <!-- 수요일 -->	
-				<input type="hidden" name="THU"> <!-- 목요일 -->	
-				<input type="hidden" name="FRI"> <!-- 금요일 -->	
-				<input type="hidden" name="SAT"> <!-- 토요일 -->	
-				<input type="hidden" name="ALARM_TIME"> <!-- 알람시간 -->	
-				<input type="hidden" name="USER_ID" value="${USER_ID}"> <!-- 회원ID -->	
+	            <input type="hidden" name="SUN"> 	<!-- 일요일 -->	
+				<input type="hidden" name="MON"> 	<!-- 월요일 -->	
+				<input type="hidden" name="TUE"> 	<!-- 화요일 -->	
+				<input type="hidden" name="WED"> 	<!-- 수요일 -->	
+				<input type="hidden" name="THU"> 	<!-- 목요일 -->	
+				<input type="hidden" name="FRI"> 	<!-- 금요일 -->	
+				<input type="hidden" name="SAT"> 	<!-- 토요일 -->	
+				<input type="hidden" name="ALARM_TIME"> 	<!-- 알람시간 -->	
+				<input type="hidden" name="USER_ID" value="${USER_ID}"> 	<!-- 회원ID -->	
             </form>
         </section>
         <!-- //Content -->
